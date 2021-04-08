@@ -1,3 +1,6 @@
+# Hosted url
+https://add-to-cart-demo.netlify.app/
+
 # Features
  * Responsiveness.
  * HTML is W3c compliant.
