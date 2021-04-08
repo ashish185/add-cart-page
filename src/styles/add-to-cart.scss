@@ -1,0 +1,70 @@
+.main{
+    margin: 1% 2% 1% 2%;
+}
+.border-bottom-style{
+    border-bottom-style: solid;
+}
+.table-class{
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;   
+      }
+      th {
+        text-align: left;
+        border-top-style: solid;
+        padding: 1rem;
+      }
+      td{
+        text-align: left;
+        padding: .5rem;
+        border-top-style: solid;
+        vertical-align: top;
+      }   
+      overflow: auto; 
+}
+   
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    .button{
+        margin: 2rem 0rem 2rem 0;
+        height: 2rem;
+        width: 8rem;
+        background-color: red;
+        color: white;
+    }
+}
+
+.price-name-count{
+    display: flex;
+    flex-direction: column;
+    input{
+        width: 2rem;
+    }
+}
+#total-price{
+    text-align: right;
+    padding: 1rem 1.5rem 1rem 0rem;
+}
+.img-with-text{
+    display: flex;
+    img{
+        max-width: 100%;
+        min-width: 25px;
+        height: auto;
+    }
+}
+.delete-img{
+    max-width: 100%;
+    min-width: fit-content;
+    height: auto;
+    text-align: right;
+}
+.logo{
+    height: 2.5rem;
+    width: 5rem;
+}
+.button{
+    font-size:1.1rem;
+}
